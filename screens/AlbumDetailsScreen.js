@@ -149,7 +149,6 @@ const AlbumDetailsScreen = ({ route }) => {
         </Animated.View>
 
         <View style={styles.contentContainer}>
-          {/* Título del álbum */}
           <Text style={styles.albumTitle}>{album.title}</Text>
 
           {/* Nombre del artista como botón */}
